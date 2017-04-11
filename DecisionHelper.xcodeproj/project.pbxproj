@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		736EE0731E64FDF600A9D2C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736EE0721E64FDF600A9D2C4 /* AppDelegate.swift */; };
-		736EE0751E64FDF600A9D2C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736EE0741E64FDF600A9D2C4 /* ViewController.swift */; };
 		736EE0781E64FDF600A9D2C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736EE0761E64FDF600A9D2C4 /* Main.storyboard */; };
 		736EE07A1E64FDF600A9D2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736EE0791E64FDF600A9D2C4 /* Assets.xcassets */; };
 		736EE07D1E64FDF600A9D2C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736EE07B1E64FDF600A9D2C4 /* LaunchScreen.storyboard */; };
+		736EE0851E65070F00A9D2C4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736EE0841E65070F00A9D2C4 /* DataModel.swift */; };
+		736EE0871E6514F600A9D2C4 /* DecisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736EE0861E6514F600A9D2C4 /* DecisionItem.swift */; };
+		736EE0891E651C2800A9D2C4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736EE0881E651C2800A9D2C4 /* Question.swift */; };
+		7381C3871E8C26A600DC1D22 /* ShowArgumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381C3861E8C26A600DC1D22 /* ShowArgumentViewController.swift */; };
+		73BB36A51E6733790097AA48 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BB36A41E6733790097AA48 /* QuestionsViewController.swift */; };
+		73BB36AF1E6C83650097AA48 /* ShowQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BB36AE1E6C83650097AA48 /* ShowQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		736EE06F1E64FDF600A9D2C4 /* DecisionHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecisionHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736EE0721E64FDF600A9D2C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		736EE0741E64FDF600A9D2C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		736EE0771E64FDF600A9D2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		736EE0791E64FDF600A9D2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736EE07C1E64FDF600A9D2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736EE07E1E64FDF600A9D2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736EE0841E65070F00A9D2C4 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		736EE0861E6514F600A9D2C4 /* DecisionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecisionItem.swift; sourceTree = "<group>"; };
+		736EE0881E651C2800A9D2C4 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7381C3861E8C26A600DC1D22 /* ShowArgumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowArgumentViewController.swift; sourceTree = "<group>"; };
+		73BB36A41E6733790097AA48 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		73BB36AE1E6C83650097AA48 /* ShowQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		736EE0711E64FDF600A9D2C4 /* DecisionHelper */ = {
 			isa = PBXGroup;
 			children = (
+				73BB36A41E6733790097AA48 /* QuestionsViewController.swift */,
 				736EE0721E64FDF600A9D2C4 /* AppDelegate.swift */,
-				736EE0741E64FDF600A9D2C4 /* ViewController.swift */,
 				736EE0761E64FDF600A9D2C4 /* Main.storyboard */,
+				7381C3861E8C26A600DC1D22 /* ShowArgumentViewController.swift */,
 				736EE0791E64FDF600A9D2C4 /* Assets.xcassets */,
 				736EE07B1E64FDF600A9D2C4 /* LaunchScreen.storyboard */,
 				736EE07E1E64FDF600A9D2C4 /* Info.plist */,
+				736EE0841E65070F00A9D2C4 /* DataModel.swift */,
+				736EE0861E6514F600A9D2C4 /* DecisionItem.swift */,
+				736EE0881E651C2800A9D2C4 /* Question.swift */,
+				73BB36AE1E6C83650097AA48 /* ShowQuestionViewController.swift */,
 			);
 			path = DecisionHelper;
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736EE0751E64FDF600A9D2C4 /* ViewController.swift in Sources */,
+				736EE0891E651C2800A9D2C4 /* Question.swift in Sources */,
+				73BB36A51E6733790097AA48 /* QuestionsViewController.swift in Sources */,
 				736EE0731E64FDF600A9D2C4 /* AppDelegate.swift in Sources */,
+				736EE0871E6514F600A9D2C4 /* DecisionItem.swift in Sources */,
+				7381C3871E8C26A600DC1D22 /* ShowArgumentViewController.swift in Sources */,
+				73BB36AF1E6C83650097AA48 /* ShowQuestionViewController.swift in Sources */,
+				736EE0851E65070F00A9D2C4 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +317,7 @@
 				736EE0831E64FDF600A9D2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
